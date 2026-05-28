@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SQL Server Shipment, Route &amp; Fleet Data Warehouse — Lida Wei</title>
+<title>Power BI Reporting &amp; SSIS Aggregate Tables — Lida Wei</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -1445,15 +1445,15 @@
 <header class="project-detail-hero">
   <div class="project-detail-inner">
     <div class="breadcrumb"><a href="../index.html#projects">← Back to Projects</a></div>
-    <div class="project-kicker">Logistics Data Platform</div>
-    <h1 class="project-detail-title">SQL Server Shipment, Route &amp; Fleet Data Warehouse</h1>
-    <p class="project-detail-summary">A case study framework for documenting shipment, route, fleet, GPS, load, dispatch, CDC, stored procedure, and logistics KPI dashboard work.</p>
-    <div class="project-tags" style="margin-bottom:2rem;"><span class="project-tag">SQL Server</span>
-<span class="project-tag">SSMS</span>
+    <div class="project-kicker">Business Intelligence</div>
+    <h1 class="project-detail-title">Power BI Reporting &amp; SSIS Aggregate Tables</h1>
+    <p class="project-detail-summary">A case study framework for documenting requirements gathering, migrated dataset validation, SSIS aggregate table loading, and Power BI dashboard development.</p>
+    <div class="project-tags" style="margin-bottom:2rem;"><span class="project-tag">Power BI</span>
 <span class="project-tag">SSIS</span>
-<span class="project-tag">CDC</span>
-<span class="project-tag">Stored Procedures</span>
-<span class="project-tag">Power BI</span></div>
+<span class="project-tag">SQL Server</span>
+<span class="project-tag">Data Quality</span>
+<span class="project-tag">Excel</span>
+<span class="project-tag">Requirements</span></div>
     <div class="project-detail-actions">
       <a class="btn-primary" href="#case-study">View Case Study ↓</a>
       <a class="btn-secondary" href="#" onclick="return false;">Add GitHub Code Link</a>
@@ -1484,18 +1484,18 @@
     <div class="detail-card reveal">
       <h3>03 · Impact Metrics</h3>
       <ul>
-        <li>Add 30% route / delivery performance analysis improvement here.</li>
-<li>Add 40% data latency reduction here.</li>
-<li>Add dispatch optimization or cost reduction context here.</li>
+        <li>Add report performance improvement context here.</li>
+<li>Add data validation or reconciliation result here.</li>
+<li>Add stakeholder adoption or dashboard usage context here.</li>
       </ul>
     </div>
 
     <div class="detail-card reveal" style="transition-delay:0.05s;">
       <h3>04 · Technical Architecture</h3>
       <ul>
-        <li>GPS, load, dispatch, shipment, route, and fleet source data.</li>
-<li>SSIS ingestion and SQL Server data warehouse tables.</li>
-<li>CDC and stored procedures for incremental status tracking.</li>
+        <li>Transaction detail source table.</li>
+<li>SSIS ETL workflow for aggregate table loading.</li>
+<li>Power BI reports with filters, slicers, and drill-down analysis.</li>
       </ul>
     </div>
 
@@ -1518,20 +1518,20 @@ Dashboard, Reporting, or ML Scoring</pre>
     <div class="detail-card wide-card reveal">
       <h3>06 · Screenshots &amp; Visual Evidence</h3>
       <div class="artifact-grid">
-        <div class="artifact-box">Add dashboard screenshot<br>assets/logistics-data-warehouse-dashboard.png</div>
-        <div class="artifact-box">Add architecture diagram<br>assets/logistics-data-warehouse-architecture.png</div>
-        <div class="artifact-box">Add data model screenshot<br>assets/logistics-data-warehouse-data-model.png</div>
+        <div class="artifact-box">Add dashboard screenshot<br>assets/powerbi-ssis-reporting-dashboard.png</div>
+        <div class="artifact-box">Add architecture diagram<br>assets/powerbi-ssis-reporting-architecture.png</div>
+        <div class="artifact-box">Add data model screenshot<br>assets/powerbi-ssis-reporting-data-model.png</div>
       </div>
     </div>
 
     <div class="detail-card reveal">
       <h3>07 · Files / Code to Add</h3>
       <ul>
-        <li>SQL Server DDL scripts</li>
-<li>Stored procedures</li>
-<li>SSIS data flow screenshot</li>
-<li>KPI dashboard screenshots</li>
-<li>Route analytics documentation</li>
+        <li>SSIS control flow screenshot</li>
+<li>SQL aggregate table script</li>
+<li>DAX measures</li>
+<li>Power BI report screenshots</li>
+<li>Validation checklist</li>
       </ul>
     </div>
 
